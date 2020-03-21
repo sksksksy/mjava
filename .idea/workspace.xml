@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b01f0f82-3fe6-4d6d-8f96-23d63b2a0cb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zhp/win/WinApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zhp/win/controller/PaginationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zhp/win/controller/URLMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zhp/win/entity/PageData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zhp/win/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zhp/win/mail/MailConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zhp/win/mail/MailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zhp/win/mail/SendMailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zhp/win/mybatis/UserMybatits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/PaginationSql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/User.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/t.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/xss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zhp/win/WinApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/java.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/User.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/t.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/xss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhp/win/WinApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhp/win/controller/PaginationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhp/win/controller/URLMapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhp/win/entity/PageData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhp/win/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhp/win/mail/MailConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhp/win/mail/MailUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhp/win/mail/SendMailException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/zhp/win/mybatis/UserMybatits.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/zhp/win/WinApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,12 +104,24 @@
       <workItem from="1583488585683" duration="8662000" />
       <workItem from="1583641314149" duration="1125000" />
       <workItem from="1583723474042" duration="2377000" />
-      <workItem from="1584748658377" duration="1723000" />
+      <workItem from="1584748658377" duration="2024000" />
     </task>
+    <task id="LOCAL-00001" summary="no message">
+      <created>1584750613874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584750613874</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="no message" />
+    <option name="LAST_COMMIT_MESSAGE" value="no message" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="27" key="#Notifications" timestamp="1584750305677">
@@ -170,6 +132,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="376" y="285" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1582015550098" />
+    <state x="275" y="9" width="788" height="690" key="CommitChangelistDialog2" timestamp="1584750609799">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="9" width="788" height="690" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584750609799" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1584749304031">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -222,10 +188,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="291" y="22" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1584750090199" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584750495228">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584750667396">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584750495228" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584750667396" />
     <state x="345" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1584748749948">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
