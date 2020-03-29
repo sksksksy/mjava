@@ -2,28 +2,32 @@ package zhp.win.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import zhp.win.config.SSOConfig;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import java.net.URLEncoder;
 import java.util.UUID;
 
 @Controller
 public class URLMapping {
     Logger logger= LoggerFactory.getLogger(URLMapping.class);
     private static String t;
+    @Autowired
+    SSOConfig ssoConfig;
+
     @GetMapping("/hel")
     public @ResponseBody String Hello(HttpServletRequest request, HttpServletResponse response){
         logger.info("zhe shi yi ge test");
         String u= UUID.randomUUID().toString();
         response.setHeader("x-Header-token",u);
         logger.info("hel:"+u);
+        System.out.println(ssoConfig);
         return "hello<a href=\"http://127.0.0.1/test\">dianwo</a>:"+u;
     }
     @GetMapping("/test")

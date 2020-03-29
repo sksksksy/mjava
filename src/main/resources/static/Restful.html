@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BaseCrud</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <a href="javascript:RequestSend('get')">getRequest</a><br/>
+    <a href="javascript:RequestSend('post')">postRequest</a><br/>
+    <a href="javascript:RequestSend('put')">putRequest</a><br/>
+    <a href="javascript:RequestSend('delete')">deleteRequest</a>
+    <script>
+        function RequestSend(method) {
+            console.log(method);
+            var murl="http://127.0.0.1/crud";
+            var mtype,mdata={"name":"yourname"};;
+            /*switch (method) {
+            case "get":mtype="GET";mdata={"name":"yourname"};break;
+            case "post":mtype="POST";mdata={"name":"yourname"};break;
+            case "put":mtype="POST";mdata={"name":"yourname",_method:'put'};break;
+            case "delete":mtype="POST";mdata={"name":"yourname",_method:'delete'};break;
+            }*/
+            $.ajax({
+                url:murl,
+                type:method,
+                data:mdata,
+                success: function f(data) {
+                    alert(data);
+                },
+                error: function f(data) {
+                    alert("error");
+                }
+            });
+        }
+    </script>
+</body>
+</html>
